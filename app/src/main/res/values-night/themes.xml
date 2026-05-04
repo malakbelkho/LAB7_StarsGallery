@@ -1,7 +1,33 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.StarsGallery" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.StarsGallery" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="colorPrimary">@color/primary_red</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_red</item>
+        <item name="colorOnPrimary">@color/text_light</item>
+        <item name="colorSecondary">@color/accent_blue</item>
+        <item name="colorOnSecondary">@color/text_light</item>
+
+        <item name="actionBarStyle">@style/StarsGallery.ActionBar</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/primary_dark_red</item>
+        <item name="android:navigationBarColor">@color/primary_dark_red</item>
+
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+
     </style>
+
+    <style name="StarsGallery.ActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/primary_red</item>
+        <item name="titleTextStyle">@style/StarsGallery.ActionBar.Title</item>
+    </style>
+
+    <style name="StarsGallery.ActionBar.Title" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

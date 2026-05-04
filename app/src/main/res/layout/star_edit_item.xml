@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@drawable/bg_dialog_content">
+
+    <TextView
+        android:id="@+id/idss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:visibility="gone" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgDialog"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:src="@drawable/star" />
+
+    <TextView
+        android:id="@+id/dialogHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choisis une nouvelle note"
+        android:textColor="#37474F"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="18dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:layout_marginTop="14dp" />
+
+</LinearLayout>

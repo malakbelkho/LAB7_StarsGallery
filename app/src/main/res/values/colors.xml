@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <!-- App identity colors -->
+    <color name="primary_red">#E60023</color>
+    <color name="primary_dark_red">#A30018</color>
+    <color name="accent_blue">#03A9F4</color>
+    <color name="accent_purple">#7C4DFF</color>
+    <color name="accent_pink">#FF4081</color>
+
+    <!-- Background colors -->
+    <color name="screen_top">#FFF3F7</color>
+    <color name="screen_middle">#E3F2FD</color>
+    <color name="screen_bottom">#F3E5F5</color>
+
+    <!-- Cards -->
+    <color name="card_white">#FFFFFF</color>
+    <color name="card_soft">#FAFDFF</color>
+    <color name="card_lavender">#F6ECFF</color>
+    <color name="card_stroke">#D7C9FF</color>
+
+    <!-- Text -->
+    <color name="text_dark">#263238</color>
+    <color name="text_medium">#607D8B</color>
+    <color name="text_light">#FFFFFF</color>
+
+    <!-- Splash -->
+    <color name="splash_red">#FF1744</color>
+    <color name="splash_purple">#7C4DFF</color>
+    <color name="splash_blue">#00B0FF</color>
+    <color name="glass_white">#33FFFFFF</color>
+    <color name="glass_border">#AAFFFFFF</color>
+
+    <!-- Rating / badge -->
+    <color name="badge_bg">#E8F5FF</color>
+    <color name="badge_border">#90CAF9</color>
+
 </resources>
