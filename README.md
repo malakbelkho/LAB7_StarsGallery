@@ -131,9 +131,9 @@ Au clic sur une star :
 - Applique le filtrage dynamique
 - Gère le bouton de partage
 
-## Layouts XML:
+### Layouts XML:
 
-### res/layout/activity_splash.xml
+#### res/layout/activity_splash.xml
 - Écran de démarrage de l’application
 - Contient :
   - Logo central
@@ -142,7 +142,7 @@ Au clic sur une star :
 - Utilise un fond en dégradé doux
 - Donne une première impression moderne à l’application
 
-### res/layout/activity_list.xml
+#### res/layout/activity_list.xml
 - Écran principal de la galerie
 - Contient :
   - Header personnalisé
@@ -152,7 +152,7 @@ Au clic sur une star :
   - RecyclerView
 - Remplace l’ActionBar classique par une interface plus moderne et personnalisée
 
-### res/layout/star_item.xml
+#### res/layout/star_item.xml
 - Représente une ligne du RecyclerView
 - Contient :
   - Image circulaire
@@ -163,7 +163,7 @@ Au clic sur une star :
 - Utilise MaterialCardView pour un rendu plus élégant
 - Permet de garder une interface claire, moderne et lisible
 
-### res/layout/star_edit_item.xml
+#### res/layout/star_edit_item.xml
 - Layout du popup de modification de note
 - Contient :
   - Image de la star
@@ -171,9 +171,9 @@ Au clic sur une star :
   - Identifiant caché de la star
 - Utilisé dans AlertDialog lors du clic sur un élément de la liste
 
-## Ressources de design:
+### Ressources de design:
 
-### res/values/colors.xml
+#### res/values/colors.xml
 - Centralise les couleurs utilisées dans l’application
 - Contient :
   - Couleurs principales
@@ -184,60 +184,60 @@ Au clic sur une star :
   - Couleurs des badges
 - Facilite la modification globale du design
 
-### res/values/themes.xml
+#### res/values/themes.xml
 - Définit le thème principal de l’application
 - Utilise un thème sans ActionBar classique
 - Permet d’avoir une interface personnalisée avec un header créé dans le layout
 - Définit les couleurs de la status bar et de la navigation bar
 
-### res/values-night/themes.xml
+#### res/values-night/themes.xml
 - Définit le thème utilisé en mode sombre
 - Garde une cohérence visuelle avec le thème principal
 - Permet d’éviter les changements imprévus de couleurs lorsque le téléphone est en dark mode
 
-## Drawables utilisés:
+### Drawables utilisés:
 
-### res/drawable/bg_splash_screen.xml
+#### res/drawable/bg_splash_screen.xml
 - Fond du Splash Screen
 - Utilise un dégradé harmonieux clair
 - Donne un effet doux et moderne au lancement
 
-### res/drawable/bg_splash_card.xml
+#### res/drawable/bg_splash_card.xml
 - Carte centrale du Splash Screen
 - Coins arrondis
 - Bordure douce
 - Style moderne et léger
 
-### res/drawable/bg_main_screen.xml
+#### res/drawable/bg_main_screen.xml
 - Fond principal de l’application
 - Dégradé clair permettant de faire ressortir les cartes
 
-### res/drawable/bg_header_card.xml
+#### res/drawable/bg_header_card.xml
 - Fond du header principal
 - Dégradé rouge/rose
 - Donne une identité visuelle forte à l’application
 
-### res/drawable/bg_search_box.xml
+#### res/drawable/bg_search_box.xml
 - Fond de la barre de recherche
 - Coins arrondis
 - Couleur claire pour améliorer la lisibilité
 
-### res/drawable/bg_circle_icon.xml
+#### res/drawable/bg_circle_icon.xml
 - Fond circulaire du bouton de partage
 - Permet d’obtenir un bouton simple, propre et élégant
 
-### res/drawable/bg_id_badge.xml
+#### res/drawable/bg_id_badge.xml
 - Badge affichant l’identifiant de la star
 - Forme circulaire
 - Bordure douce
 - Couleurs adaptées au thème global
 
-### res/drawable/bg_dialog_content.xml
+#### res/drawable/bg_dialog_content.xml
 - Fond du contenu du popup
 - Donne une apparence plus propre à la boîte de dialogue
 - Améliore la présentation de l’image et de la RatingBar
 
-### res/drawable/bg_star_item.xml
+#### res/drawable/bg_star_item.xml
 - Fond personnalisé utilisé pour les premières versions des cartes
 - Peut servir de fallback si l’on veut utiliser un LinearLayout au lieu de MaterialCardView
 - Définit une carte arrondie avec dégradé léger et bordure douce
