@@ -3,9 +3,9 @@ package ma.ens.starsgallery.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import ma.ens.starsgallery.R;
 import ma.ens.starsgallery.beans.Star;
 import ma.ens.starsgallery.dao.IDao;
-
 public class StarService implements IDao<Star> {
 
     private static StarService instance;
@@ -24,53 +24,21 @@ public class StarService implements IDao<Star> {
     }
 
     private void loadStars() {
-        stars.add(new Star(
-                "Kate Bosworth",
-                "https://randomuser.me/api/portraits/women/44.jpg",
-                3.5f
-        ));
-
-        stars.add(new Star(
-                "George Clooney",
-                "https://randomuser.me/api/portraits/men/32.jpg",
-                4.0f
-        ));
-
-        stars.add(new Star(
-                "Michelle Rodriguez",
-                "https://randomuser.me/api/portraits/women/68.jpg",
-                5.0f
-        ));
-
-        stars.add(new Star(
-                "Emma Watson",
-                "https://randomuser.me/api/portraits/women/65.jpg",
-                4.5f
-        ));
-
-        stars.add(new Star(
-                "Leonardo DiCaprio",
-                "https://randomuser.me/api/portraits/men/46.jpg",
-                4.8f
-        ));
-
-        stars.add(new Star(
-                "Zendaya",
-                "https://randomuser.me/api/portraits/women/12.jpg",
-                4.7f
-        ));
-
-        stars.add(new Star(
-                "Tom Cruise",
-                "https://randomuser.me/api/portraits/men/22.jpg",
-                4.2f
-        ));
-
-        stars.add(new Star(
-                "Scarlett Johansson",
-                "https://randomuser.me/api/portraits/women/26.jpg",
-                4.6f
-        ));
+        stars.add(new Star("Kate Bosworth", R.drawable.kate_bosworth, 3.5f));
+        stars.add(new Star("George Clooney", R.drawable.george_clooney, 4.0f));
+        stars.add(new Star("Michelle Rodriguez", R.drawable.michelle_rodriguez, 5.0f));
+        stars.add(new Star("Emma Watson", R.drawable.emma_watson, 4.5f));
+        stars.add(new Star("Leonardo DiCaprio", R.drawable.leonardo_dicaprio, 4.8f));
+        stars.add(new Star("Zendaya", R.drawable.zendaya, 4.7f));
+        stars.add(new Star("Scarlett Johansson", R.drawable.scarlett_johansson, 4.6f));
+        stars.add(new Star("Margot Robbie", R.drawable.margot_robbie, 4.4f));
+        stars.add(new Star("Dwayne Johnson", R.drawable.dwayne_johnson, 4.3f));
+        stars.add(new Star("Tom Cruise", R.drawable.tom_cruise, 4.1f));
+        stars.add(new Star("Anne Hathaway", R.drawable.anne_hathaway, 4.2f));
+        stars.add(new Star("Robert Downey Jr.", R.drawable.robert_downey_jr, 4.6f));
+        stars.add(new Star("Chris Hemsworth", R.drawable.chris_hemsworth, 4.3f));
+        stars.add(new Star("Gal Gadot", R.drawable.gal_gadot, 4.5f));
+        stars.add(new Star("Ryan Gosling", R.drawable.ryan_gosling, 4.2f));
     }
 
     @Override

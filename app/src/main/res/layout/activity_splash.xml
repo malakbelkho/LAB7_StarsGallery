@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Stars Gallery"
-            android:textColor="#FFFFFF"
+            android:textColor="#5A2E86"
             android:textStyle="bold"
             android:textSize="25sp"
             android:layout_marginTop="22dp" />
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Explore • Rate • Share"
-            android:textColor="#E8F4FF"
+            android:textColor="#7A6A96"
             android:textSize="13sp"
             android:layout_marginTop="6dp" />
 

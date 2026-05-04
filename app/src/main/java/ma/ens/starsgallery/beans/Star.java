@@ -6,10 +6,10 @@ public class Star {
 
     private int id;
     private String name;
-    private String img;
+    private int img;
     private float star;
 
-    public Star(String name, String img, float star) {
+    public Star(String name, int img, float star) {
         this.id = ++compteur;
         this.name = name;
         this.img = img;
@@ -24,7 +24,7 @@ public class Star {
         return name;
     }
 
-    public String getImg() {
+    public int getImg() {
         return img;
     }
 
@@ -32,23 +32,15 @@ public class Star {
         return star;
     }
 
-    public float getRating() {
-        return star;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setImg(String img) {
+    public void setImg(int img) {
         this.img = img;
     }
 
     public void setStar(float star) {
         this.star = star;
-    }
-
-    public void setRating(float rating) {
-        this.star = rating;
     }
 }
